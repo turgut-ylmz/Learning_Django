@@ -1,0 +1,16 @@
+ 1195  python manage.py runserver
+ 1196  python manage.py runserver
+ 1197  python manage.py shell
+ 1198  python manage.py shell
+ 1199  clear
+ 1200  python -m venv env
+ 1201  source env/bin/activate
+ 1202  pip install django
+ 1203  python -m pip install --upgrade pip
+ 1204  history
+ 1205  clear
+ 1206  pip list
+ 1207  pip freeze
+ 1208  pip freeze > requirements.txt
+ 1209  django-admin startproject main .
+ 1210  python manage.py runserver
