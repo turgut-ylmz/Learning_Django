@@ -1,0 +1,13 @@
+{% extends 'fscohort/base.html' %}
+
+
+{% block container %}
+    <form action="" method="POST">
+        <p>Are You Sure! {{ student }}</p>
+        {% csrf_token %}
+        <input type="submit" value="Yes">
+    </form>
+    <a href="{% url 'list' %}">
+        <button>No</button>
+    </a>
+{% endblock container %}
