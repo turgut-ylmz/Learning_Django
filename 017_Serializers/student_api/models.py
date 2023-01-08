@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Path(models.Model):
     path_name = models.CharField(max_length=50)
 
