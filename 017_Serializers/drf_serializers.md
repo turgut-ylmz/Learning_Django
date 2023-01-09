@@ -96,6 +96,7 @@ go to terminal
 py manage.py startapp student_api
 ```
 
+
 go to settings.py and add 'student_api' app to installed apps
 
 go to student_api.models.py
