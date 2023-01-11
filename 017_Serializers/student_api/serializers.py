@@ -16,7 +16,9 @@ from .models import Student,Path
 #         instance.number = validated_data.get('number', instance.number)
 #         instance.save()
 #         return instance
+
 #2. yöntem
+
 class PathSerializer(serializers.ModelSerializer):
     class Meta:
         model = Path
